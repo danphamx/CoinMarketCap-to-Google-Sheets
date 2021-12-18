@@ -1,3 +1,7 @@
+/**
+ * @OnlyCurrentDoc
+ */
+
 function onOpen(){
   var ui = SpreadsheetApp.getUi();
   ui.createMenu('🪄 CMC API')
